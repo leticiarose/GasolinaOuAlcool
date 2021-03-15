@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button class="backbtn" routerLink="/home/" routerDirection="back">
+        <img src="../../assets/back.svg" />
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  
+  <div class="ion-padding container">
+    <img src="../../assets/logo.png" />
+    <br>
+    <h4>Descubra a melhor opção para abastecimento:
+    </h4>
+
+    <div class="form-container">
+
+      <ion-item>
+        <ion-label position="floating">Preço Álcool, ex: 1,90</ion-label>
+        <ion-input type="number" [(ngModel)]="precoAlcool"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Preço Gasolina, ex: 2,90</ion-label>
+        <ion-input type="number" [(ngModel)]="precoGasolina"></ion-input>
+      </ion-item>
+
+      <ion-button expand="block" class="main-button" (click)="calcular()"> Calcular</ion-button>
+
+
+
+      <ion-col size="12">
+        <h5 text-center>
+          {{ resultado }}
+        </h5>
+      </ion-col>
+
+    </div>
+  </div>
+</ion-content>
+
