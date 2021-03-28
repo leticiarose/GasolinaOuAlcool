@@ -1,8 +1,8 @@
-# Gasolina ou álcool?
+# Gasoline or alcohol?
 
 ![](https://github.com/leticiarose/GasolinaOuAlcool/blob/a1297faaf07747eebb78a0bba7c9850b354aa963/Demonstration.gif)
 
-## 📌 Objective
+## 📌Project Overview
 
 ### Project created in virtue of the increases in the price of gasoline, I developed the following application for the economy in the supply of your car. It works as follows: the price of a liter of ethanol is divided by that of gasoline. If the result is less than 0.7, the sugar cane derivative is the best one to supply. If it is greater than 0.7, then gasoline is better.
 
